@@ -3,25 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>index</title>
+    <title>图片展示</title>
     <style>
-        *{
-            margin:0;
-            padding:0;
+        * {
+            margin: 0;
+            padding: 0;
             box-sizing: border-box;
         }
-        body{
-            background-color: #000;
+        body {
+            background: #000;
             min-height: 100vh;
             display: flex;
             justify-content: center;
             align-items: center;
         }
-        .img-box{
+        .wrap {
             max-width: 90vw;
             max-height: 95vh;
         }
-        .img-box img{
+        .wrap img {
             width: 100%;
             height: auto;
             display: block;
@@ -30,9 +30,9 @@
     </style>
 </head>
 <body>
-    <div class="img-box">
-        <!-- =========这里改成本地图片的绝对路径========= -->
-        <img src="C:\Users\29900\Desktop\anime.jpg" alt="暗黑动漫头像">
+    <div class="wrap">
+        <!-- 图片和这个html放在同一个文件夹，直接用下面这行 -->
+        <img src="./anime.jpg" alt="暗黑动漫头像">
     </div>
 </body>
 </html>
